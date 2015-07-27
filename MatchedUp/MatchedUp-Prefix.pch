@@ -13,4 +13,12 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+#import <Parse/Parse.h>
+//#import <Facebook-iOS-SDK/>
+#import <FacebookSDK/FacebookSDK.h>
+#import <ParseFacebookUtils/PFFacebookUtils.h>
+#import "CCConstants.h"
+#import <Mixpanel.h>
+#define MIXPANEL_TOKEN @"8c2c082ba184024ce72f51c8b5483b98"
+
 #endif
